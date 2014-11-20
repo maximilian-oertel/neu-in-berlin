@@ -1,7 +1,4 @@
 @import url("normalize.css");
-/**
-timur I love you
-**/
 
 html{
     /*
@@ -33,23 +30,22 @@ a{
 }
 
 @font-face {
-    font-family: Chalkduster;
-    src: url(../fonts/Chalkduster.ttf);
+    font-family: 'Action Comics';
+    src: url('../fonts/action_comics/Action Comics.ttf');
+/*    src: url('../fonts/bombing/bombing.ttf');*/
 }
 
 h1{
     display: inline;
-    font-family: Chalkduster;
-    font-size: 1.6rem;
+    font-family: 'Action Comics';
+    font-size: 1.3rem;
     color: black;
-    margin-top: 10px;
-    position: relative;
-    margin-top: 13px;
+    position: absolute;
 }
 
 header{
     width: 100%;
-    height: 50px;
+    height: 55px;
     background: white;
     display: block;
     padding-left: 5%;
