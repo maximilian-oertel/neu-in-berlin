@@ -28,18 +28,6 @@ main, footer{
     padding-top: 2px;
 }
 
-@media (max-width: 850px) {
-
-    main, footer {
-        width: 90%;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
-
 a{
     color: white;
 }
@@ -64,7 +52,7 @@ header{
     height: 50px;
     background: white;
     display: block;
-    padding-left: 2%;
+    padding-left: 5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -82,7 +70,7 @@ nav{
     height: 50px;
     position: absolute;
     top: 0px;
-    right: 100px;
+    right: 5%;
     padding-left: 50px;
     
 }
@@ -94,7 +82,7 @@ nav ul{
 }
 
 nav ul li{
-    float: right;
+    float: left;
     list-style: none;
     height: 50px;
 }
@@ -190,4 +178,48 @@ footer {
     background-color: rgba(0,204,153,1.0);
 }
 
+#menu-icon{
+    background: url(../bilder/menu-lines.png) no-repeat;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 15px;
+    display: none;
+}
 
+@media (max-width: 850px) {
+
+    main, footer {
+        width: 90%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    header{
+        padding-left: 2%;
+    }
+
+    nav{
+        right: 2%;
+    }
+
+    ul li{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul{
+        display: none;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+}
