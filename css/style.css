@@ -40,7 +40,7 @@ h1{
     font-family: 'Action Comics';
     font-size: 1.3rem;
     color: black;
-    position: absolute;
+
 }
 
 header{
@@ -185,6 +185,9 @@ footer {
     margin-right: 15px;*/
 }
 
+#header-logo{
+}
+
 @media (max-width: 850px) {
 
     main, footer {
@@ -210,8 +213,24 @@ footer {
 }
 
 @media (max-width: 700px) {
+    h1 {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+    }
+
+    header{
+        padding-left: 0;
+    }
+
     nav ul{
         display: none;
+    }
+
+    #header-logo{
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 6px;
     }
 
     #show-menu-checkbox:checked + ul{
@@ -239,6 +258,8 @@ footer {
     #show-menu-label{
         display: inline;
         float: right;
+        margin-right: 12px;
+        margin-top: 9px;
     }
 
 
