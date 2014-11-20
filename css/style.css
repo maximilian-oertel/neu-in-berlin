@@ -101,6 +101,7 @@ nav ul li a{
 
 #menu > li > a {
     transition: all 0.2s linear;
+    background-color: rgba(255,255,255,1.0);
 }
 
 footer {
@@ -174,15 +175,14 @@ footer {
     background-color: rgba(0,204,153,1.0);
 }
 
-#menu-icon{
-    background: url(../bilder/menu-lines.png) no-repeat;
-    float: right;
-    width: 35px;
+#show-menu-checkbox, #show-menu-label{
+    /*background: url(../bilder/menu-lines.png) no-repeat;*/
+    display: none;
+    /*width: 35px;
     height: 35px;
     border: none;
     margin-top: 6px;
-    margin-right: 15px;
-    display: none;
+    margin-right: 15px;*/
 }
 
 @media (max-width: 850px) {
@@ -214,8 +214,36 @@ footer {
         display: none;
     }
 
-    #menu-icon{
-        display: block;
+    #show-menu-checkbox:checked + ul{
+        display: inline;
     }
+
+    #show-menu-checkbox:checked + ul li{
+        height: 50px;
+        width: 100%;
+
+    }
+
+    nav{
+        right: 0;
+        width: 100%;
+    }
+
+    #show-menu-checkbox:checked + ul li{
+        height: 50px;
+        width: 100%;
+
+    }
+
+
+    #show-menu-label{
+        display: inline;
+        float: right;
+    }
+
+
+
+
+}
 
 }
