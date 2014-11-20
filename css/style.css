@@ -178,15 +178,15 @@ footer {
     background-color: rgba(0,204,153,1.0);
 }
 
-#menu-icon{
-    background: url(../bilder/menu-lines.png) no-repeat;
+#show-menu-checkbox{
+    /*background: url(../bilder/menu-lines.png) no-repeat;*/
+    display: none;
     float: right;
-    width: 35px;
+    /*width: 35px;
     height: 35px;
     border: none;
     margin-top: 6px;
-    margin-right: 15px;
-    display: none;
+    margin-right: 15px;*/
 }
 
 @media (max-width: 850px) {
@@ -218,8 +218,18 @@ footer {
         display: none;
     }
 
-    #menu-icon{
+    #show-menu-checkbox{
         display: block;
     }
+
+    #show-menu-label{
+        margin-top: 6px;
+        margin-right: 15px;
+    }
+
+    input[type=checkbox]:checked{
+        /*background-color: #FF0000;*/
+    }
+}
 
 }
