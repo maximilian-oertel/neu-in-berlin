@@ -52,6 +52,10 @@ h1{
     font-family: 'Action Comics';
     font-size: 1.3rem;
     color: black;
+    text-d
+}
+#logo{
+    text-decoration: none;
 }
 
 ul li {
