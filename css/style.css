@@ -248,4 +248,14 @@ nav ul li a{
         margin-top: 9px;
     }
 
+    #menu ul {
+        position: static;
+        display: block;
+        margin-left: 30px;
+    }
+
+    #menu ul li{
+        height: inherit;
+    }
+
 }
