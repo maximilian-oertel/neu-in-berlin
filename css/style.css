@@ -52,6 +52,10 @@ h1{
     font-family: 'Action Comics';
     font-size: 1.3rem;
     color: black;
+    text-d
+}
+#logo{
+    text-decoration: none;
 }
 
 ul li {
@@ -214,11 +218,15 @@ nav ul li a{
         margin-top: 6px;
     }
 
+
+
     #show-menu-checkbox:checked + ul{
         display: inline;
     }
 
     #show-menu-checkbox:checked + ul li{
+        height: 50px;
+        width: 100%;
         height: 50px;
         width: 100%;
 
@@ -235,17 +243,13 @@ nav ul li a{
         position: fixed;
     }
 
-    #show-menu-checkbox:checked + ul li{
-        height: 50px;
-        width: 100%;
-
-    }
 
     #show-menu-label{
         display: inline;
         float: right;
         margin-right: 12px;
         margin-top: 9px;
+        cursor: pointer;
     }
 
     #menu ul {
