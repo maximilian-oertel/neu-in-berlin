@@ -52,11 +52,7 @@ h1{
     font-family: 'Action Comics';
     font-size: 1.3rem;
     color: black;
-
 }
-
-
-
 
 ul li {
     font-family: "Verdana" , sans-serif;
@@ -105,27 +101,33 @@ nav ul li a{
     background-color: rgba(255,255,255,1.0);
 }
 
-
-
-
-#menu ul li {
-    font-family: "Verdana", sans-serif;
-}
-
 #menu ul {
      position: absolute;
      top: 30px;
      padding: 0;
      margin: 0;
+     top: -9999px;
 }
 
 #menu ul li {
-    float:none;
-    margin: 0;
+     float: none;
+     font-size: 1em;
+     padding: 0px 0px;
+     text-align: left;
+     text-transform: uppercase;
+     margin: 0;
+     border-bottom: 1px solid #ddd;
+     line-height: 5px;
+     background-color: rgba(0,204,153,1.0);
+     -webkit-box-shadow: 0 2px 8px white;
+     -moz-box-shadow: 0 2px 8px white;
+     box-shadow: 0 2px 8px white;
+     font-family: "Verdana", sans-serif;
 }
 
-#menu ul {
-    top: -9999px;
+#menu ul a {
+     color: #333;
+     text-decoration: none;
 }
 
 #menu li:hover ul {
@@ -141,35 +143,8 @@ nav ul li a{
      color: #999;
 }
 
-#menu ul li {
-     margin: 0;
-     -webkit-box-shadow: 0 2px 8px white;
-     -moz-box-shadow: 0 2px 8px white;
-     box-shadow: 0 2px 8px white;
-}
- 
-#menu ul li {
-     float: none;
-     font-size: 1em;
-     padding: 0px 0px;
-     text-align: left;
-     text-transform: uppercase;
-     margin: 0;
-     border-bottom: 1px solid #ddd;
-     line-height: 5px;
-}
- 
 #menu ul li:hover {
      color: #fff;
-}
- 
-#menu ul a {
-     color: #333;
-     text-decoration: none;
-}
-
-#menu ul li{
-    background-color: rgba(0,204,153,1.0);
 }
 
 #show-menu-checkbox, #show-menu-label{
@@ -251,17 +226,11 @@ nav ul li a{
 
     }
 
-
     #show-menu-label{
         display: inline;
         float: right;
         margin-right: 12px;
         margin-top: 9px;
     }
-
-
-
-
-}
 
 }
