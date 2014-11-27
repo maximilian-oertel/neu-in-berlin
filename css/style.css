@@ -1,46 +1,21 @@
 @import url("normalize.css");
 
 html{
-    /*
-    font-size: 0.75em;*/
-    background: url(../bilder/background.jpg) no-repeat center center fixed; 
+    font-size: 16px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background: url(../bilder/background.jpg) no-repeat center center fixed;
 }
 
 body{
-    /*background-size: cover;   
-    background: url(../bilder/background.jpg) no-repeat top center fixed;*/
-}
 
-main, footer{
-    max-width: 800px;
-    margin: 0 auto;
-    color: white;
-    background-color:rgba(192,192,192,0.3);
-    border-radius:0.5em;
-    padding: 8px;
-    padding-top: 2px;
-}
-
-a{
-    color: white;
 }
 
 @font-face {
     font-family: 'Action Comics';
     src: url('../fonts/action_comics/Action Comics.ttf');
-/*    src: url('../fonts/bombing/bombing.ttf');*/
-}
-
-h1{
-    display: inline;
-    font-family: 'Action Comics';
-    font-size: 1.3rem;
-    color: black;
-
 }
 
 header{
@@ -55,6 +30,32 @@ header{
     border-bottom: 3px #00cc99 solid;
     margin-bottom: 2%;
 }
+
+main, footer{
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    background-color:rgba(192,192,192,0.3);
+    border-radius:0.5em;
+    padding: 8px;
+    padding-top: 2px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    display: inline;
+    font-family: 'Action Comics';
+    font-size: 1.3rem;
+    color: black;
+
+}
+
+
 
 
 ul li {
@@ -104,11 +105,7 @@ nav ul li a{
     background-color: rgba(255,255,255,1.0);
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-    padding: 10px;
-}
+
 
 
 #menu ul li {
