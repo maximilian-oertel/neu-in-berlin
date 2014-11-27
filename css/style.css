@@ -55,9 +55,6 @@ h1{
 
 }
 
-
-
-
 ul li {
     font-family: "Verdana" , sans-serif;
     font-size: 1.2em;
@@ -69,7 +66,7 @@ nav{
     top: 0px;
     right: 5%;
     padding-left: 50px;
-    
+    position: fixed;
 }
 
 nav ul{
@@ -104,9 +101,6 @@ nav ul li a{
     transition: all 0.2s linear;
     background-color: rgba(255,255,255,1.0);
 }
-
-
-
 
 #menu ul li {
     font-family: "Verdana", sans-serif;
@@ -210,6 +204,11 @@ nav ul li a{
 }
 
 @media (max-width: 700px) {
+    main{
+        position: relative;
+        margin-top: 60px;
+    }
+
     h1 {
         width: 100%;
         text-align: center;
@@ -218,6 +217,7 @@ nav ul li a{
 
     header{
         padding-left: 0;
+        position: fixed;
     }
 
     nav ul{
@@ -243,6 +243,11 @@ nav ul li a{
     nav{
         right: 0;
         width: 100%;
+    }
+
+    header, nav{
+        top: 0;
+        z-index: 10;
     }
 
     #show-menu-checkbox:checked + ul li{
