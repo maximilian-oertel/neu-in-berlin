@@ -125,10 +125,8 @@ nav ul li a{
      margin: 0;
      border-bottom: 1px solid #ddd;
      line-height: 5px;
-     background-color: rgba(0,204,153,1.0);
-     -webkit-box-shadow: 0 2px 8px white;
-     -moz-box-shadow: 0 2px 8px white;
-     box-shadow: 0 2px 8px white;
+     background-color: rgba(255,255,255,1.0);
+
      font-family: "Verdana", sans-serif;
 }
 
@@ -142,12 +140,13 @@ nav ul li a{
 }
 
 #menu ul li a {
-     color: rgba(255,255,255,1.0);
+     color: rgba(0,0,0,1.0);
      text-decoration: none;
 }
  
 #menu ul li a:hover {
-     color: #999;
+     color: rgba(255,255,255,1.0);
+    background-color: rgba(0,204,153,1.0);
 }
 
 #menu ul li:hover {
@@ -164,8 +163,6 @@ nav ul li a{
     margin-right: 15px;*/
 }
 
-#header-logo{
-}
 
 @media (max-width: 850px) {
 
