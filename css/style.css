@@ -7,16 +7,17 @@ html{
     -o-background-size: cover;
     background-size: cover;
     background: url(../bilder/background.jpg) no-repeat center center fixed;
+    font-family: Helvetica, sans-serif;
 }
 
 @font-face {
     font-family: 'Action Comics';
-    src: url('../fonts/action_comics/Action Comics.ttf');
+    src: url('../fonts/zwodrei_bold_demo.ttf');
 }
 
 header{
     width: 100%;
-    height: 55px;
+    height: 53px;
     background: white;
     display: block;
     padding-left: 5%;
@@ -36,7 +37,6 @@ main, footer{
     margin: 0 auto;
     color: white;
     background-color:rgba(192,192,192,0.3);
-    border-radius:0.5em;
     padding: 8px;
     padding-top: 2px;
 }
@@ -48,19 +48,25 @@ footer {
 }
 
 h1{
-    display: inline;
+    display: inline-block;
     font-family: 'Action Comics';
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: black;
-    text-d
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 15px;
 }
+
+h1::first-letter {
+    color: rgba(0, 168, 126, 1.0);
+}
+
 #logo{
-    text-decoration: none;
+    margin-top: 2px;
 }
 
 ul li {
-    font-family: "Verdana" , sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 nav{
@@ -86,9 +92,9 @@ nav ul li{
 nav ul li a{
     color: #3d4c5d;
     text-decoration: none;
-    height: 35px;
+    height: 33px;
     display: block;
-    padding-top: 15px;
+    padding-top: 17px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -212,7 +218,7 @@ nav ul li a{
     #header-logo{
         position: fixed;
         margin-left: 10px;
-        margin-top: 6px;
+        margin-top: 10px;
     }
 
     #show-menu-checkbox:checked + ul{
