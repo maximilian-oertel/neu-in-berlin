@@ -209,10 +209,10 @@ nav ul li a{
     }
 
     h1 {
-        width: 100%;
+        width: 60%;
         text-align: center;
         position: fixed;
-        margin-left: 0px;
+        margin-left: 20%;
     }
 
     header{
