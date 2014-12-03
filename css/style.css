@@ -61,6 +61,10 @@ h1{
     margin-left: 15px;
 }
 
+h1::first-letter {
+    color: rgba(0, 168, 126, 1.0);
+}
+
 #logo{
     margin-top: 2px;
 }
