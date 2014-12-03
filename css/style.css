@@ -208,6 +208,7 @@ nav ul li a{
         width: 100%;
         text-align: center;
         position: fixed;
+        margin-left: 0px;
     }
 
     header{
@@ -226,6 +227,11 @@ nav ul li a{
     }
 
 
+    #logo{
+        position: absolute;
+        left: 10px;
+        top: 3px;
+    }
 
     #show-menu-checkbox:checked + ul{
         display: inline;
