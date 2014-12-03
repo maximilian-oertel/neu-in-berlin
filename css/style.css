@@ -164,7 +164,7 @@ nav ul li ul li{
 }
 
 #menu ul li a {
-     color: rgba(0,0,0,1.0);
+     color: #3d4c5d;
      text-decoration: none;
 }
  
@@ -281,6 +281,21 @@ nav ul li ul li{
         margin-right: 12px;
         margin-top: 9px;
         cursor: pointer;
+    }
+
+    #menu ul{
+        position: static;
+        top: 0;
+        display: block;
+    }
+
+    .expandable + li{
+        margin-top: 203px;
+    }
+
+    .expandable ul li a{
+        padding-left: 60px;
+        font-size: 1.2em;
     }
 
 }
