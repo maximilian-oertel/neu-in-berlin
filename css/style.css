@@ -104,6 +104,17 @@ nav ul li a{
     padding-right: 15px;
 }
 
+nav ul li ul li a{
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 0px;
+    width: 126px;
+}
+
+nav ul li ul li{
+    height: 45px;
+}
+
 #menu > li:hover > a {
 /*nav ul li a:hover{*/
     background-color: rgba(0,204,153,1.0);
@@ -129,10 +140,10 @@ nav ul li a{
 
 #menu ul li {
      float: none;
-     font-size: 0.7em;
+     font-size: 0.8em;
      padding: 0px 0px;
      text-align: left;
-     text-transform: uppercase;
+     /*text-transform: uppercase;*/
      margin: 0;
      border-bottom: 1px solid #ddd;
      line-height: 5px;
