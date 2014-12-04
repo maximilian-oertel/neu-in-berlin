@@ -249,6 +249,7 @@ nav ul li ul li{
 
     #show-menu-checkbox:checked + ul{
         display: inline;
+        /*test*/
     }
 
     #show-menu-checkbox:checked + ul li{
