@@ -66,7 +66,7 @@ h1::first-letter {
 }
 
 #logo{
-    margin-top: 4px;
+    margin-top: 7px;
 }
 
 ul li {
@@ -244,7 +244,7 @@ nav ul li ul li{
     #logo{
         position: absolute;
         left: 10px;
-        top: 3px;
+        top: 0px;
     }
 
     #show-menu-checkbox:checked + ul{
