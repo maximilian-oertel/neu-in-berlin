@@ -198,6 +198,33 @@ nav ul li ul li{
     margin-right: 15px;*/
 }
 
+dt{
+    margin-top: 10px;
+}
+
+dd{
+    font-size: 0.9em;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+dt a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 4px;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+dt a:hover{
+    color: rgba(0, 168, 126, 1.0);
+}
+
+dt a::before{
+    content: "\2663";
+    margin-right: 5px;
+}
+
 @media (max-width: 850px) {
 
     main, footer {
