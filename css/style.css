@@ -216,14 +216,22 @@ dt a{
     font-size: 1.05em;
 }
 
-dt a:hover{
-    color: rgba(0, 168, 126, 1.0);
-}
+    dt a:hover{
+        color: rgba(0, 168, 126, 1.0);
+    }
 
-dt a::before{
-    content: "\2663";
-    margin-right: 5px;
-}
+    dt a::before{
+        content: "\2663";
+        margin-right: 5px;
+    }
+
+    dl dt{
+        font-weight: bold;
+    }
+
+    dl{
+        margin-top: 50px;
+    }
 
 @media (max-width: 850px){
 
@@ -247,6 +255,7 @@ dt a::before{
     ul li{
         font-size: 0.8em;
     }
+
 }
 
 @media (max-width: 700px){
