@@ -63,6 +63,7 @@ h1{
 
 h1::first-letter {
     color: rgba(0, 168, 126, 1.0);
+    a
 }
 
 #logo{
