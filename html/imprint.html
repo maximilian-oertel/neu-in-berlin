@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Neu in Berlin - Impressum</title>
     <meta charset="UTF-8">
-    <meta name="author" content="Andreas Folz (549849), Timur Özer (548854), Marc Piper (549870),  Dilan Yücel (550348), Maximilian Oertel (549231)" />
+    <meta name="author" content="Andreas Folz (549849), Timur Özer (548854), Marc Piper (549870), Dilan Yücel (550348), Maximilian Oertel (549231)" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
 
     <header>
-        <img src="../bilder/skyline.jpg" alt="Skyline von Berlin" title="Zu sehen sind Sehenswürdigkeiten wie der Fernsehturm">
-        <h1>Neu in Berlin?!</h1>
-        <h2>Impressum</h2>
+        <a href="../index.html"><img id="logo" src="../bilder/logo.png" alt="Skyline von Berlin" title="Das Brandenburger Tor"></a>
+        <a href="../index.html"><h1>Oreos of Berlin</h1></a>
+
     </header>
 
     <nav>
-        <ul>
-            <li><a href="../index.html">Startseite</a>
+        <label for="show-menu-checkbox" id="show-menu-label"><img src="../bilder/menu-lines.png" alt="menu-lines"/></label>
+        <input type="checkbox" id="show-menu-checkbox"/>
+        <ul id="menu">
+            <li><a href="about.html">Über uns</a></li>
+            <li class="expandable"><a href="#">Anlaufstellen</a>
+
+                <ul>
+                <li><a href="#" class="amt">Bezirksämter</a></li>
+                <li><a href="#" class="bvg">Transportmittel</a></li>
+                <li><a href="#" class="kult">Kultur</a></li>
+                <li><a href="#" class="sight">Sightseeing</a></li>
+                </ul>
+
             </li>
-            <li><a href="about.html">Über uns</a>
-            </li>
-            <li><a href="links.html">Verlinkungen</a>
-            </li>
+            <li><a href="links.html">Verlinkungen</a></li>
         </ul>
     </nav>
 
