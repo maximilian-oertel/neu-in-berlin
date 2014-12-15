@@ -80,6 +80,16 @@ h2{
     margin-top: 7px;
 }
 
+ol{
+    list-style: none;
+}
+
+ol li{
+    display: block;
+    width: 100%;
+    text-align:center;
+}
+
 ul li{
     font-family: "Verdana" , sans-serif;
     font-size: 1em;
