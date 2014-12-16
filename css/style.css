@@ -81,14 +81,14 @@ h2{
 }
 
 ol{
-    list-style: none;
+    padding-left: 20px;
 }
 
-ol li{
+/*ol li{
     display: block;
     width: 100%;
     text-align:center;
-}
+}*/
 
 ul li{
     font-family: "Verdana" , sans-serif;
@@ -212,11 +212,7 @@ dt{
     margin-top: 10px;
 }
 
-dd{
-    font-size: 0.9em;
-    text-align: justify;
-    margin-top: 5px;
-}
+
 
 dt a{
     text-decoration: none;
@@ -225,6 +221,8 @@ dt a{
     font-weight: bold;
     font-size: 1.05em;
 }
+
+
 
     dt a:hover{
         color: rgba(0, 168, 126, 1.0);
@@ -240,8 +238,25 @@ dt a{
     }
 
     dl{
-        margin-top: 50px;
+        margin-top: 20px;
     }
+
+dd{
+    font-size: 0.9em;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+dd img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+dd address{
+    margin-top: 20px;
+}
 
 @media (max-width: 850px){
 
@@ -349,5 +364,9 @@ dt a{
         padding-left: 60px;
         font-size: 1.2em;
     }
+
+    dd img{
+    width: 100%;
+}
 
 }
