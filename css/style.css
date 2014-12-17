@@ -1,3 +1,10 @@
+/*
+    Normalisieren des Browser-Stylesheets
+
+    Vorteile gegenüber reset.css (in unserem Fall)
+    - bessere Lesbarkeit
+    - viele Übereinstimmungen mit unseren Intentionen
+*/
 @import url("normalize.css");
 
 html{
