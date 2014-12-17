@@ -67,7 +67,7 @@ h2{
 }
 
 ol{
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 ul li{
@@ -141,4 +141,10 @@ dd img{
 
 #menu, #show-menu-checkbox, #show-menu-label{
     display: none;
+}
+
+#bvg-image{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 20px;
 }
