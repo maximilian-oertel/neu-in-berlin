@@ -51,6 +51,15 @@ footer{
     padding: 10px;
 }
 
+a{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #00cc99;
+}
+
 h1{
     display: inline-block;
     font-family: 'Action Comics';
@@ -79,6 +88,16 @@ h2{
 #logo{
     margin-top: 7px;
 }
+
+ol{
+    padding-left: 20px;
+}
+
+/*ol li{
+    display: block;
+    width: 100%;
+    text-align:center;
+}*/
 
 ul li{
     font-family: "Verdana" , sans-serif;
@@ -202,11 +221,7 @@ dt{
     margin-top: 10px;
 }
 
-dd{
-    font-size: 0.9em;
-    text-align: justify;
-    margin-top: 5px;
-}
+
 
 dt a{
     text-decoration: none;
@@ -214,7 +229,10 @@ dt a{
     padding-left: 4px;
     font-weight: bold;
     font-size: 1.05em;
+    margin-bottom: 10px;
 }
+
+
 
     dt a:hover{
         color: rgba(0, 168, 126, 1.0);
@@ -230,8 +248,51 @@ dt a{
     }
 
     dl{
-        margin-top: 50px;
+        margin-top: 20px;
     }
+
+dd{
+    font-size: 0.9em;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+dd img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+dd a{
+    color: #00cc99;
+    text-decoration: none;
+    font-style: italic;
+}
+
+dd a:hover{
+    color: #FFFFFF;
+}
+
+dd address{
+    margin-top: 20px;
+}
+
+.sightseeing-image{
+    float: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.left-image{
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px 1px #FFFFFF;
+}
 
 @media (max-width: 850px){
 
@@ -338,6 +399,11 @@ dt a{
     .expandable ul li a{
         padding-left: 60px;
         font-size: 1.2em;
+    }
+
+    dd img{
+    width: 100%;
+
     }
 
 }
