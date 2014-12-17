@@ -393,12 +393,17 @@ dd address{
     }
 
     .expandable + li{
-        margin-top: 203px;
+        margin-top: 99px;
+    }
+
+    #menu ul li{
+        margin-top: -1px;
     }
 
     .expandable ul li a{
         padding-left: 60px;
         font-size: 1.2em;
+        padding-top: 22px;
     }
 
     dd img{
