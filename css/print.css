@@ -43,6 +43,12 @@ a{
     text-decoration: underline;
 }
 
+main a:after{
+    content:" (" attr(href) ") ";
+    font-size:0.8em;
+    font-weight:normal;
+}
+
 h1{
     display: inline-block;
     font-family: 'Action Comics';
