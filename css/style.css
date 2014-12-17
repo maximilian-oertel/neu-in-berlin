@@ -232,24 +232,23 @@ dt a{
 }
 
 
+dt a:hover{
+    color: rgba(0, 168, 126, 1.0);
+}
 
-    dt a:hover{
-        color: rgba(0, 168, 126, 1.0);
-    }
+dt a::before{
+    content: "\2663";
+    margin-right: 5px;
+}
 
-    dt a::before{
-        content: "\2663";
-        margin-right: 5px;
-    }
+dl dt:first-child{
+    font-weight: bold;
+    margin-top: 20px;
+}
 
-    dl dt:first-child{
-        font-weight: bold;
-        margin-top: 20px;
-    }
-
-    dl{
-        margin-top: 20px;
-    }
+dl{
+    margin-top: 20px;
+}
 
 dd{
     font-size: 0.9em;
