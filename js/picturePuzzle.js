@@ -1,4 +1,5 @@
-window.onload = init;
-
-function init(){
+function init() {
+    "use strict";
 }
+
+window.onload = init;
