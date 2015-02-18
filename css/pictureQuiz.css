@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(0,153,76,0.6);
+    
+}
+
+img{
+    margin-top: 10px;
+    display: block;
+    border: solid 2 px;
+    border-color: rgba(0,0,0,1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#test{
+        visibility: hidden;
+}
+
+.startwrapper{
+    position: absolute;
+    left: 470px;
+    bottom: 250px;
+    text-align: center;
+}
+
+#start #check #reset {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70%;
+}
+
+
+.answers {
+    visibility: visible;
+    display: block;
+    padding-left: 320px;
+    font-family: Helvetica, sans-serif;
+    font-size: 2 rem;
+}
+
+#counter {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgba(0,50,10,0.6);
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    right: 51px;
+    top: 70px; 
+}
+
